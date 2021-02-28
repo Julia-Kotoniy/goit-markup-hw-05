@@ -99,6 +99,8 @@ header {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list .item + .item {
@@ -147,11 +149,15 @@ header {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cont-text {
   display: flex;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-cont .item + .item {
@@ -401,6 +407,9 @@ main {
   padding: 12px;
 
   text-align: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-net {
@@ -440,6 +449,8 @@ main {
 
 .clients-content .link {
   color: rgba(175, 177, 184, 1);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-content .item {
@@ -546,6 +557,8 @@ footer .item + .item {
 
   display: block;
   text-align: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-join {
@@ -584,6 +597,10 @@ footer .item + .item {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port-button .item + .item {
@@ -617,6 +634,8 @@ footer .item + .item {
 
 .project-link {
   display: block;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-content {
